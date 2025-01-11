@@ -111,6 +111,6 @@ while True:
 
     play_again_prompt = input("\nDo you want to calculate again (yes/no)\n")
     
-    if play_again_prompt != "yes":
+    if play_again_prompt.lower() != "yes":
         type_text("All calculations are done")
         break
