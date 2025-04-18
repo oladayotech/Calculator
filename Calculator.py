@@ -111,12 +111,6 @@ while True:
 
     play_again_prompt = input("\nDo you want to calculate again (yes/no)\n")
     
-<<<<<<< HEAD
-    if play_again_prompt != "yes":
-        type_text("All calculations are done")
-        break
-=======
     if play_again_prompt.lower() != "yes":
         type_text("All calculations are done")
         break
->>>>>>> ace0f037d99729f48fc920a055b266f70f95d83e
