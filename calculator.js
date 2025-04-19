@@ -16,9 +16,9 @@ function calculaotion_selector() {
     }
     try {
         while (true) {
-            user_input = prompt("In")
+            user_input = prompt("Input to pick any of the above")
         }
     } catch (error) {
-        
+        console.log(error)
     }
 }
