@@ -16,9 +16,17 @@ function calculaotion_selector() {
     }
     try {
         while (true) {
-            user_input = prompt("Input to pick any of the above")
+            const readline = require('readline');
+            const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+            rl.question("Enter your name: ", (name) => {
+            console.log("Hello " + name);
+            rl.close();
+            });
+            // user_input = prompt("Input to pick any of the above")`
         }
     } catch (error) {
         console.log(error)
     }
 }
+
+calculaotion_selector()
