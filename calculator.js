@@ -22,7 +22,7 @@ function calculaotion_selector() {
             console.log("Hello " + name);
             rl.close();
             });
-            // user_input = prompt("Input to pick any of the above")
+            user_input = prompt("Input to pick any of the above")
         }
     } catch (error) {
         console.log(error)
